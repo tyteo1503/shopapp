@@ -1,0 +1,100 @@
+.intro-section {
+    /* Căn chỉnh các đoạn text ra chính giữa */
+    text-align: center;
+    /* màu chữ */
+    color: white;
+    /* Khoảng cách 4 chiều */
+    padding: 20px;
+}
+
+.search-box {
+    /* Sắp xếp các item nối liền nhau*/
+    display: flex;
+    /* Chỉnh các item về chính giữa*/
+    align-items: center;
+    justify-content: center;
+    /* Chỉnh khoảng cách bên dưới 20px để tránh bị sát với phần bên dưới */
+    margin-bottom: 20px;
+}
+
+.product-category {
+    width: 200px;
+    background-color: rgb(19, 23, 42);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.search-input {
+    width: 300px;
+    background-color: rgb(19, 23, 42);
+    /* tăng khoảng cách bên phải */
+    margin-right: 10px;
+    /* Màu viền khung input*/
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.form-control {
+    background-color: transparent;
+    color: white;
+}
+
+/* Chrome, FireFox, Opera */
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+/* Edge */
+.form-control:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.product-item {
+    background-color: rgb(19, 23, 42);
+    /* Thiết lập viền: kích thước và màu */
+    border: 1px solid rgb(35, 39, 61);
+    /* Tỉ lệ bo góc */
+    border-radius: 20px;
+    /* Khoảng cách với 4 chiều (trên, dưới, trái, phải) */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    color: white;
+}
+
+.product-description {
+    color: rgb(173, 178, 203);
+}
+
+.product-warranty {
+    color: rgb(242, 126, 212);
+}
+
+.product-price {
+    color: white;
+}
+
+.product-rating {
+    color: yellow;
+    margin-top: 10px;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.space-x {
+    margin: 0 10px;
+    /*top, right, bottonm left */
+}
